@@ -1,0 +1,16 @@
+{
+  "name": "display_tb",
+  "version": "1.0.0",
+  "description": "estudos sobre html e css",
+  "main": "index.hmtl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "display"
+  ],
+  "author": "Raul",
+  "license": "ISC"
+}
