@@ -1,0 +1,66 @@
+/* RESET GERAL: Limpa as margens padrão do navegador e ajusta o cálculo de tamanhos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+/* CONTAINER AZUL: Estilo da caixa de baixo com texto tipo máquina de escrever */
+.container {
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+}
+
+/* COR DE FUNDO DO SITE: Deixa o fundo de toda a página roxo (blueviolet) */
+.body-container {
+    background-color: blueviolet;
+}
+
+/* CABEÇALHO: Faixa do topo da página com cor ciano (aqua) */
+.header-container {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+}
+
+/* BOTÕES DE LINK: Transforma os links do topo em botões marrons com cantos arredondados */
+.header-container a {
+    display: inline-block;
+    background-color: brown;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: x-large;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: Verdana, sans-serif;
+}
+
+/* EFEITO AO PASSAR O MOUSE: Muda a cor do botão para verde-limão e cria uma borda */
+.header-container a:hover {
+    background-color: chartreuse;
+    border: 2px solid burlywood;
+    color: #000;
+}
+
+/* PRIMEIRA SEÇÃO: Caixa centralizada com borda pontilhada preta */
+.section01 {
+    width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    border: #050505 dashed 3px;
+}
+
+/* TÍTULO DA SEÇÃO 01: Cria um espaço abaixo do título "links favoritos" */
+.section01--title {
+    margin-bottom: 10px;
+}
+
+/* ITENS DA LISTA: Define o tamanho do texto e a altura entre as linhas da lista */
+.link-lista {
+    font-size: medium;
+    line-height: 30px;
+}
