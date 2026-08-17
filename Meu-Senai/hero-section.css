@@ -1,25 +1,32 @@
-
-*{
-    
-    margin:0 ;
+/* RESET GERAL: Limpa todas as margens e paddings padrão do navegador e ajusta o tamanho das caixas */
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+/* CORPO DA PÁGINA (BODY): Define a cor de fundo azul-claro e faz a página ocupar toda a tela do navegador */
+body {
     background-color: rgb(99, 168, 195);
-    width: 100vw;
-    height: 100vh;
+    width: 100vw;  /* Ocupa 100% da largura da tela */
+    height: 100vh; /* Ocupa 100% da altura da tela */
 }
-.content-header{
+
+/* CABEÇALHO DA PÁGINA: Ocupa toda a largura e 33% da altura da tela com fundo bege (bisque) */
+.content-header {
     width: 100%;
     height: 33%;
     background-color: bisque;
+    
+    /* FLEXBOX: Organiza os elementos filhos (como o banner) perfeitamente no centro */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;      /* Alinha verticalmente no centro */
+    justify-content: center;  /* Alinha horizontalmente no centro */
 }
-.banner-header{
-    width: 50%;
-    height: 80%;
+
+/* CAIXA DO BANNER: Fica dentro do cabeçalho, com fundo ciano (aqua) */
+.banner-header {
+    width: 50%;   /* Ocupa metade da largura do cabeçalho */
+    height: 80%;  /* Ocupa quase toda a altura do cabeçalho */
     background-color: aqua;
 }
