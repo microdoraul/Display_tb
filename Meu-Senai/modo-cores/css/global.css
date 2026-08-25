@@ -1,0 +1,44 @@
+@import url(./reset.css);
+@import url(./desing-system.css);
+
+
+.color-section{
+
+}
+
+.color-section__sidebar{
+
+}
+
+
+.color-section__title{
+
+}
+
+.color-section__menu{
+
+}
+
+
+.color-section__link {
+
+}
+
+.color-section__link--active{
+
+}
+
+.color-section__link--active:hover{
+
+}
+.color-section__link:not(.color-section__link--active):hover {
+
+}
+
+.color-section__bar{
+
+}
+
+.color-section__bar:hover{
+    
+}
