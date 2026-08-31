@@ -1,50 +1,70 @@
+<!-- Indica ao navegador que o documento utiliza a versão HTML5 -->
 <!DOCTYPE html>
+
+<!-- Início do documento HTML configurado para o idioma Português do Brasil -->
 <html lang="pt-br">
+
 <head>
+    <!-- Define a codificação de caracteres para aceitar acentos e ç -->
     <meta charset="UTF-8">
+    
+    <!-- Garante a responsividade para adaptar a tela em celulares e computadores -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título que aparece na aba principal do navegador -->
     <title>Motorola Destaque de Bateria</title>
+    
+    <!-- Conexão com o arquivo externo de estilos CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <!-- Bloco Principal da Página (HTML Semântico + BEM) -->
     <main class="main-container">
+
+        <!-- Lado Esquerdo: Área reservada para a imagem do produto -->
         <section class="main-container__left">
+            <!-- Imagem do celular carregando com texto alternativo acessível -->
             <img class="main-container__left" src="./img/celular_carregando.webp" alt="Celular Motorola Carregando">
         </section> 
 
+        <!-- Lado Direito: Conteúdo de texto e destaques de bateria -->
         <section class="main-container__right">
             
+            <!-- Cabeçalho interno do lado direito (Título e Subtítulo) -->
             <header class="main-container__right--title">
+                <!-- Título principal com nota sobrescrita <sup> -->
                 <h1>A maior Bateria em um Ultrafino <sup>2</sup></h1>
-                <span class="main-container__right--subtitle">Silício de carbono </span>
                 
+                <!-- Subtítulo em destaque simples -->
+                <span class="main-container__right--subtitle">Silício de carbono </span>
             </header>
 
+            <!-- Artigo contendo as informações principais da bateria -->
             <article class="main-container__right--batery">
 
+                <!-- Bloco de destaque de tempo de carregamento rápido -->
                 <div class="main-container__right--time">
                     <h2>15 minutos <sup>6</sup></h2>
                     <p> com o <strong>Carregador TurboPower 68</strong>, vc garante Bateria para o dia todo em apenas 15 minutos <sup>6</sup></p>
                 </div>
 
+                <!-- Bloco de destaque sobre a duração total em horas -->
                 <div class="main-container__right--hours">
                     <h2>38 horas</h2>
                     <p>A <strong>Bateria de 4800 mAh com Silício-carbono</strong>oferece até 38 horas de autonomia </p>
                 </div>
+
             </article>
 
+            <!-- Rodapé interno com a informação sobre carregamento sem fio -->
             <footer class="main-container__right--charge">
                 <h2>carregue sem fio</h2>
                 <p>use carregamento sem fio TurboPower de ate 15W <sup>8 </sup>para mais pratricidade no dia a dia </p>
-                
             </footer>
             
-      </section>
+        </section>
 
     </main>
-
-
-    
 </body>
 </html>
